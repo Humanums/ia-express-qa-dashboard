@@ -43,6 +43,101 @@ table{border-collapse:collapse;width:100%;font-size:12px}th{text-align:left;back
 <div class="risk"><b>Operação manual de ChromaDB</b><small>Servidor 8000 exige terminal aberto • planejar gestão de processos.</small></div></section></div>
 <section class="panel" style="margin-top:16px"><h2>Backlog detalhado e rastreabilidade</h2><p class="note"><span id="foundCount">29</span> atividades no filtro atual. Status suportados por evidências da conversa; percentuais intermediários são estimativas e podem ser revisados no Excel.</p>
 <div class="tablewrap"><table><thead><tr><th>ID</th><th>Frente</th><th>Entrega / meta</th><th>Status</th><th>Prioridade</th><th>Progresso</th><th>Próximo critério / evidência</th></tr></thead><tbody id="rows"></tbody></table></div></section>
+
+<section class="panel" style="margin-top:16px">
+  <h2>Histórico de Evolução</h2>
+  <p class="note">
+    Acompanhe os marcos técnicos do IA Express QA.
+    As atualizações anteriores são preservadas.
+  </p>
+
+  <div class="risk">
+    <b>08/11/2026 — Automação Cypress E2E validada</b>
+    <small>
+      [PBI 1001] [CT 0001] —
+      1 teste aprovado, 0 falhas,
+      screenshot e relatório Mochawesome JSON.
+      Integração ao BDD Studio ainda pendente.
+    </small>
+  </div>
+
+  <div class="risk">
+    <b>28/10/2026 — Snapshot gerencial inicial</b>
+    <small>
+      29 entregas mapeadas, 13 concluídas,
+      6 em andamento e 1 bloqueada.
+      Indicadores históricos preservados.
+    </small>
+  </div>
+</section>
+
+<section class="panel" style="margin-top:16px">
+  <h2>Histórico de Bugs e Correções</h2>
+  <p class="note">
+    Problemas identificados durante o desenvolvimento,
+    suas correções e validações técnicas.
+  </p>
+
+  <div class="risk">
+    <b>BUG-001 — Preprocessador Cypress / ESBuild</b>
+    <small>
+      Corrigido e validado. Ajuste na importação
+      do bundler utilizado pelos testes BDD.
+    </small>
+  </div>
+
+  <div class="risk">
+    <b>BUG-002 — Reconhecimento de Gherkin em português</b>
+    <small>
+      Corrigido e validado. Configuração do idioma
+      na Feature para execução com Cucumber.
+    </small>
+  </div>
+
+  <div class="risk">
+    <b>BUG-003 — Definições das etapas BDD</b>
+    <small>
+      Corrigido no cenário piloto de login.
+      Etapas implementadas e execução aprovada.
+    </small>
+  </div>
+
+  <div class="risk">
+    <b>BUG-004 — Credenciais do ambiente demonstrativo</b>
+    <small>
+      Corrigido e validado. Alinhamento dos dados
+      utilizados pela automação e pela aplicação.
+    </small>
+  </div>
+
+  <div class="risk">
+    <b>BUG-005 — PowerShell não localizado pelo Cypress</b>
+    <small>
+      Contornado no ambiente de testes.
+      Ajuste temporário do PATH; solução
+      permanente ainda não validada.
+    </small>
+  </div>
+
+  <div class="risk">
+    <b>BUG-006 — Exposição de arquivos internos</b>
+    <small>
+      Mitigação inicial aplicada no Express.
+      Arquivo interno retornou HTTP 404.
+      Auditoria completa ainda pendente.
+    </small>
+  </div>
+
+  <div class="risk redline">
+    <b>BUG-007 — Integração Cypress com o BDD Studio</b>
+    <small>
+      Pendente. Execução pelo terminal validada,
+      mas integração automática à interface
+      operacional ainda não concluída.
+    </small>
+  </div>
+</section>
+
 <footer class="foot">IA EXPRESS QA AUTOMATION AI · Base de acompanhamento consolidada em 28/10/2026. Não é um arquivo .PBIX nativo. Dashboard HTML offline e base Excel para importação no Power BI Desktop. Indicadores são snapshots; não existe ligação automática ao Git ou ChromaDB neste arquivo. Percentuais não equivalem à prontidão comercial ou esforço consumido.</footer>
 </main>
 <script>
